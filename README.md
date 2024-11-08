@@ -1,54 +1,48 @@
-# LatestAiDevelopment Crew
+# Project Planning Agents
 
-Welcome to the LatestAiDevelopment Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the Project Planning Agents project, a cutting-edge AI system designed to streamline and optimize project planning and management. This project leverages the power of multi-agent systems to provide a comprehensive and efficient solution for project planning.
 
-## Installation
+## Overview
 
-Ensure you have Python >=3.10 <=3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
+The Project Planning Agents system consists of multiple autonomous agents, each responsible for a specific aspect of project planning. These agents work together to provide a holistic and integrated approach to project planning, ensuring that all aspects of the project are carefully considered and optimized.
 
-First, if you haven't already, install uv:
+## Agents
 
-```bash
-pip install uv
-```
+The following agents are part of the Project Planning Agents system:
 
-Next, navigate to your project directory and install the dependencies:
+* **Project Manager Agent**: responsible for overseeing the entire project planning process and ensuring that all agents are working together seamlessly.
+* **Resource Allocation Agent**: responsible for allocating resources such as personnel, equipment, and materials to tasks and projects.
+* **Task Scheduling Agent**: responsible for scheduling tasks and projects based on dependencies, priorities, and resource availability.
+* **Risk Management Agent**: responsible for identifying and mitigating potential risks and issues that may impact the project.
+* **Communication Agent**: responsible for facilitating communication and collaboration among team members and stakeholders.
 
-(Optional) Lock the dependencies and install them by using the CLI command:
-```bash
-crewai install
-```
-### Customizing
+## Features
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+The Project Planning Agents system provides the following features:
 
-- Modify `src/latest_ai_development/config/agents.yaml` to define your agents
-- Modify `src/latest_ai_development/config/tasks.yaml` to define your tasks
-- Modify `src/latest_ai_development/crew.py` to add your own logic, tools and specific args
-- Modify `src/latest_ai_development/main.py` to add custom inputs for your agents and tasks
+* **Automated project planning**: the system can automatically generate project plans based on input parameters and constraints.
+* **Resource optimization**: the system can optimize resource allocation to minimize waste and maximize efficiency.
+* **Task scheduling**: the system can schedule tasks and projects based on dependencies and priorities.
+* **Risk management**: the system can identify and mitigate potential risks and issues.
+* **Collaboration and communication**: the system can facilitate communication and collaboration among team members and stakeholders.
 
-## Running the Project
+## Getting Started
 
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
+To get started with the Project Planning Agents system, follow these steps:
 
-```bash
-$ crewai run
-```
+1. Install the required dependencies: `crewai install`
+2. Configure the system: modify the files from `config` folder to set up the agents and their parameters.
+3. Run the system on local env: `crewai run`
 
-This command initializes the latest-ai-development Crew, assembling the agents and assigning them tasks as defined in your configuration.
+## Configuration
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+The agents can be configured by modifying the agents and tasks files from `config` folder. The following parameters can be set:
 
-## Understanding Your Crew
+* `project_manager_agent`: settings for the Project Manager Agent.
+* `resource_allocation_agent`: settings for the Resource Allocation Agent.
+* `task_scheduling_agent`: settings for the Task Scheduling Agent.
+* `risk_management_agent`: settings for the Risk Management Agent.
+* `communication_agent`: settings for the Communication Agent.
 
-The latest-ai-development Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
 
-## Support
-
-For support, questions, or feedback regarding the LatestAiDevelopment Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
+Let's plan and manage projects more efficiently with the power of multi-agent systems!
